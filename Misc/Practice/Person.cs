@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Delegation
+﻿namespace Entities
 {
-
-    public partial class Person
+   internal partial class Person
     {
         public string Name { get; }
         public int Age { get; }
@@ -22,7 +16,7 @@ namespace Delegation
 
         }
     }
-    public partial class Person
+   internal partial class Person
     {
         public partial void PrintInfo()
         {
@@ -30,6 +24,4 @@ namespace Delegation
         }
 
     }
-
 }
-

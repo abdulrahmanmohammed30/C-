@@ -455,3 +455,6 @@ $RECYCLE.BIN/
 
 # PDF Files 
 *.pdf
+
+# compressed Files 
+*.rar
